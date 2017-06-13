@@ -1,0 +1,22 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+// Boostrap overrides, custom styles
+
+table {
+  margin-top: 20px;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+  height: 51px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.has-error {
+  color: #a94442;
+}

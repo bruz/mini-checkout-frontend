@@ -1,0 +1,9 @@
+{
+  "root": "dist/",
+  "proxies": {
+    "/api/": {
+      "origin": "https://YOUR-API-APP-NAME.herokuapp.com/"
+    }
+  },
+  "basic_auth": true
+}
